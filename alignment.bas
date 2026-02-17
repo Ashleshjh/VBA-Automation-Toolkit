@@ -1,16 +1,20 @@
 Option Explicit
 
-Sub alignment()
-
-Dim name As String
-name = "Ashlesh"
-Range("a1:a10") = name
-Range("a1:a10").HorizontalAlignment = xlLeft
-Range("a1:a10").HorizontalAlignment = xlRight
-Range("a1:a10").HorizontalAlignment = xlCenter
-Range("a1:a10").VerticalAlignment = xlTop
-Range("a1:a10").VerticalAlignment = xlBottom
-Range("a1:a10").VerticalAlignment = xlCenter
-
+Sub ChangeAlignment()
+    ' Purpose: Adjusts text alignment (Horizontal and Vertical)
+    
+    Dim name As String
+    name = "Ashlesh"
+    
+    Range("A1:A10").Value = name
+    
+    ' Horizontal Alignment Options
+    Range("A1:A10").HorizontalAlignment = xlLeft
+    Range("A1:A10").HorizontalAlignment = xlRight
+    Range("A1:A10").HorizontalAlignment = xlCenter
+    
+    ' Vertical Alignment Options
+    Range("A1:A10").VerticalAlignment = xlTop
+    Range("A1:A10").VerticalAlignment = xlBottom
+    Range("A1:A10").VerticalAlignment = xlCenter
 End Sub
-
