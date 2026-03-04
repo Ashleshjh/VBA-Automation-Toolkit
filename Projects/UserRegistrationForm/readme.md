@@ -2,7 +2,7 @@
 
 This project demonstrates a data collection interface built on an Excel Worksheet using ActiveX controls. It validates user text input, processes exclusive OptionButton selections, and concatenates multiple CheckBox boolean values into a single formatted output string.
 
-![Registration UI](Registration_UI.png)
+![Registration UI](image.png)
 
 ## Architecture Warning
 This script is designed for ActiveX controls embedded directly on a worksheet. The provided VBA code must be pasted into the specific **Worksheet Module** where the controls reside (e.g., `Sheet1`), not a standard module.
